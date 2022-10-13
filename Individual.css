@@ -63,3 +63,15 @@ nav a:hover{
   font-size: larger;
   font-family:monospace;
 }
+section{
+  text-align: center;
+  justify-content: center;
+  display:block;
+  flex-direction: column;
+}
+#Nome{
+  padding: 0px 150px;
+}
+#E-mail{
+  padding: 0px 150px;
+}
