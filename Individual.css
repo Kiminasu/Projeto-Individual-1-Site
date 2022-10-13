@@ -2,7 +2,7 @@
   width: 150px;
   max-height: 150px;
   border-radius: 50%;
-  border: 5px solid orange;
+  border: 3px solid orange;
 }
 #div2{
   color: #ffffff;
@@ -35,9 +35,6 @@ span a{
 }
 
 body{
-  background-attachment: scroll;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(https://img.freepik.com/fotos-gratis/fundo-preto-antigo-textura-do-grunge-papel-de-parede-escuro-quadro-negro-quadro-negro-parede-da-sala_1258-28312.jpg?w=1480&t=st=1665499678~exp=1665500278~hmac=b3bca5b09a64ba54a9c7796fe364a593d60821c1beef522ea286f9f0ea699c47);
+ background-color:rgb(231, 97, 20);
     
 }
