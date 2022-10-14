@@ -3,9 +3,33 @@
   max-height: 150px;
   border-radius: 50%;
   border: 3px solid orange;
+  animation: float 3.5s ease-in-out infinite;
+}
+@keyframes float{
+  0%, 100%{
+    transform: translateY(20);
+  }
+  50%{
+    transform: translateY(-20px);
+  }
 }
 #div2{
   color: #ffffff;
+}
+#contat:hover{
+  transition: 0.1 linear;
+  transform: scale(1.1);
+  transition: 300ms linear;
+}
+#hobbi:hover{
+  transition: 0.1 linear;
+  transform: scale(1.1);
+  transition: 300ms linear;
+}
+#resum:hover{
+  transition: 2.1 linear;
+  transform: scale(1.1);
+  transition: 300ms linear;
 }
 nav{
     font-family:monospace ;
@@ -66,12 +90,17 @@ nav a:hover{
 section{
   text-align: center;
   justify-content: center;
-  display:block;
+  display:flex;
   flex-direction: column;
 }
 #Nome{
-  padding: 0px 150px;
+  padding: 0px 60px;
 }
 #E-mail{
-  padding: 0px 150px;
+  padding: 0px 60px;
+}
+label{
+  display:flex;
+  text-align: center;
+  flex-direction: column;
 }
